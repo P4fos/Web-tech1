@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 6 - Task 2: The Party in Motion</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header class="roof">
+      <div class="roof-sign">The Party, 19:30 – 22:30</div>
+      <div style="margin-top: 10px;">
+        <a href="../task1/index.html" style="color: #fff; text-decoration: underline; font-weight: bold;">⬅Task 1</a>
+      </div>
+    </header>
+
+    <main id="house"></main>
+
+    <section class="legend">
+      <div class="legend-group">
+        <span class="dot color-red"></span>
+        <span class="dot color-blue"></span>
+        <span class="dot color-green"></span>
+        <span class="dot color-black"></span>
+        <span class="dot color-yellow"></span>
+        <span class="dot color-purple"></span>
+        <span>Clothing color</span>
+      </div>
+      <div class="legend-group">
+        <span>📱 Phone</span>
+        <span>👓 Glasses</span>
+        <span>👜 Bag</span>
+        <span>☕ Cup</span>
+        <span>🍰 Cake crumbs</span>
+      </div>
+      <div class="legend-group">
+        <span>🕒 Arrival time</span>
+        <span>🎓 AITU student</span>
+      </div>
+    </section>
+
+    <section class="controls">
+      <div class="controls-top">
+        <div id="result-box">Click any case button (Spotlight) or click a guest card for details & moving.</div>
+        <button id="clear-btn">Clear Spotlight</button>
+      </div>
+      <div id="cases-buttons"></div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
